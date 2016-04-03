@@ -1,0 +1,229 @@
+
+@media (max-width: 767px) {
+	#menuIcon {
+		display: block;
+	}
+	#menu {
+		display: none;
+	}
+	#slogan {
+		padding-top: 100px;
+	}
+	#accueil_btn .btn {
+		margin-top: 10px;
+	}
+	#actus {
+		margin-top: 100px;
+	}
+	#actus article {
+		width: 90%;
+	}
+	#actus article .articleImg {
+		width: 100%;
+	}
+	#actus article .articleContent {
+		width: 90%;
+		margin: 0;
+		padding: 5%;
+		border-top: 1px solid #555;
+		font-size: 16px;
+	}
+	.divLink {
+		width: 60%;
+		min-width: 300px;
+	}
+	#mainTextGames {
+		margin-top: 100px;
+		font-size: 4em;
+	}
+	#mainTextGames.score {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.link_score{
+		width:80%;
+	    margin: 110px auto -60px auto;
+	}
+	#scores {
+		width: 90%;
+	}
+	#scores td, #scores th {
+		padding: 15px 2%;
+	}
+	#scores .name {
+		padding-left: 20px;
+	}
+	#mainTextGames.score_title {
+		margin-top: 80px;
+	}
+	.reglement h2, .reglement .important{
+		font-size: 1.4em;
+	}
+	.reglement{
+		font-size: 0.8em;
+		width: 90%;
+	}
+	.reglement h1{
+		font-size: 1.8em;
+		width: 90%;
+		padding: 10px;
+	}
+	.reglement .border{
+		margin: 10px;
+	}
+	.all_membres {
+    	width: 90%;
+    	margin-top: 70px;
+	}
+	.zone_de_connection {
+		width: 75%;
+		margin: 100px auto 10px auto;
+		text-align: center;
+	}
+	.zone_de_connection label, .zone_de_connection input {
+		display: block;
+		margin: 10px auto !important;
+		text-align: center !important;
+	}
+
+	#formulaire_inscription {
+		width: 75%;
+		margin: 100px auto 20px auto;
+		text-align: center;
+	}
+	#formulaire_inscription h1 {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+		font-size: 40px !important;
+	}
+	#formulaire_inscription label, #formulaire_inscription input {
+		display: block;
+		margin: 10px auto !important;
+		text-align: center !important;
+	}
+
+	.profil {
+		margin-top: 100px;
+	}
+	.reglement {
+		width: 80%;
+		margin-top: 100px;
+	}
+	.message {
+	    margin: 80px auto -40px auto;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	nav {
+		margin-top: -60px;
+	}
+	nav li {
+		width: 120px;
+		font-size: 22px;
+		padding-bottom: 20px;
+	}
+	#slogan {
+		padding: 40px;
+		font-size: 3em;
+	}
+	#actus article {
+		width: 700px;
+	}
+	#actus article .articleContent {
+		width: 69.2%;
+		font-size: 15px;
+	}
+	.divLink {
+		width: 60%;
+		min-width: 300px;
+	}
+	#scores {
+		width: 90%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav li {
+		width: 150px;
+		font-size: 24px;
+		padding-bottom: 25px;
+	}
+	#actus article {
+		width: 900px;
+	}
+
+	#actus article .articleContent {
+		width: 69.3%;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1477px) {
+	nav li {
+		width: 175px;
+		font-size: 26px;
+		padding-bottom: 30px;
+	}
+	#actus article .articleContent {
+		font-size: 17px;
+	}
+
+}
+
+
+@media (max-width: 520px) {
+	#logo img {
+		width: 250px;
+	}
+	#slogan {
+		padding: 100px 10px 50px 10px;
+		font-size: 3em;
+	}
+	#mainText {
+		padding: 100px 50px;
+		font-size: 30px;
+	}
+	.divLink {
+		min-width: 200px;
+		margin: 10px 5px;
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 520px) and (max-width: 767px){
+	#slogan {
+		font-size: 3em;
+	}
+}
+
+@media (min-width: 768px) {
+	#menuIcon {
+		display: none;
+	}
+	.profil {
+		margin: 50px auto;
+	}
+	.zone_de_connection {
+		margin: 50px auto;
+		width: 450px;
+	}
+	#formulaire_inscription {
+		margin: 50px auto;
+		width: 500px;
+	}
+}
+@media (min-width: 992px) {
+	#slogan {
+		margin: -80px;
+	}
+}
+
+@media (min-width: 1478px) {
+	nav li {
+		width: 226px;
+		font-size: 30px;
+		padding-bottom: 40px;
+	}
+}

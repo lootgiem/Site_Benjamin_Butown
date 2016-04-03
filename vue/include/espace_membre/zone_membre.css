@@ -1,0 +1,327 @@
+/*formulaire d'inscription*/
+
+#formulaire_inscription{
+	display: block;
+	text-align: right;
+	padding: 30px;
+	border : solid 1px #ccc;
+	border-radius: 5px;
+	background-color: rgba(6,2,1,0.6);
+}
+	
+	#formulaire_inscription h1{
+		font-size: 50px;
+		text-align: center;
+		padding-bottom: 15px;
+		margin-right: 50px;
+		margin-left: 50px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	#formulaire_inscription h1 .fa{
+		font-size: 70px;
+	}
+
+	#formulaire_inscription span {
+		font-size: 16px;
+	}
+
+		#formulaire_inscription label{
+			display: block;
+			font-size: 20px;
+			width: 200px;
+			float: left;
+			margin-top: 30px;
+		}
+
+		#formulaire_inscription input{
+			margin-left:20px; 
+			height:30px;
+			padding-left: 10px;
+			width: 250px;
+			font-weight: bold;
+			border-radius: 5px;
+			margin-top: 30px;
+			font-size: 20px;
+			border:none;
+			-moz-box-shadow: inset 0px 0px 5px 0px #000;
+			-webkit-box-shadow: inset 0px 0px 5px 0px #000;
+			box-shadow: inset 0px 0px 5px 0px #000;
+		}
+
+	
+		#formulaire_inscription #submite{
+			height: auto;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: #7A1B0D !important;
+			border: 1px solid #7A1B0D !important;
+			color: white !important;
+			font-size: 20px;
+			font-family: "Typograph PRO";
+		}
+
+			#formulaire_inscription #submite:hover{
+				transition: 0.3s;
+				cursor: pointer;
+				background-color: rgba(0,0,0,0.6) !important;
+				border:1px solid #aaa !important;
+				color: white !important;
+			}
+
+
+
+/* Zone de profile */ 
+
+.profil {
+	width: 80%;
+	padding: 10px 30px;
+	background-color: rgba(6,2,1,0.8);
+	border : solid 1px #555;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+}
+
+	.message_accueil{
+		padding: 30px 0;
+		border-bottom: 1px solid white;
+	}
+
+	.content_profil {
+		padding: 30px 0;
+	}
+	
+	.disconnect{
+		border: solid 1px white;
+		padding: 10px;
+		border-radius: 5px;
+		width: 200px;
+		margin: 20px auto
+	}
+
+	.compte_snap, .Snapchat, .lien_reglement{
+		padding: 20px;
+	}
+
+	.update_snap .textbox {
+		height: 22px;
+		font-size: 18px;
+	}
+
+	.update_snap #submite {
+		margin: 10px;
+		padding: 10px 20px;
+		font-size: 20px;
+		font-family: "Typograph PRO";
+	}
+		.update_snap #submite:hover {
+			cursor: pointer;
+		}	
+
+
+
+/*Zone de connexion*/
+
+.zone_de_connection {
+	padding: 35px;
+	text-align: right;
+	border : solid 1px #555;
+	border-radius: 5px;
+	background-color: rgba(6,2,1,0.8);
+}
+
+
+	.zone_de_connection form{
+		font-family: "Typograph PRO Light";
+	}
+
+		.label_input_co label{
+
+			display: block;
+			font-size: 25px;
+			width: 230px;
+			float: left;
+			margin-top: 23px;
+		}
+
+		.label_input_co input{
+
+			height:25px;
+			padding-left: 10px;
+			width: 190px;
+			font-weight: bold;
+			margin-top: 25px;
+			font-size: 19px;
+			border:none;
+		}
+
+		#checkbox{
+			width: 209px;
+			margin: 40px 10px -46px 10px;
+			font-size: px;
+		}
+
+		.checkbox{
+		    float:left;
+		    font-size: 1em;
+		}
+
+		.checkbox_input{
+			height:20px; 
+			width:20px;
+
+		}
+		
+		.mdp_forget{
+			margin: 5px 7px -10px 0; 
+			font-size: 15px;
+		}
+
+		
+		.zone_de_connection #submite{
+			margin: 10px;
+			padding: 10px 20px;
+			font-size: 20px;
+			font-family: "Typograph PRO";
+		}
+
+			.zone_de_connection #submite:hover{
+				transition:0.3s;
+				cursor: pointer;
+			}
+
+		a:hover > .inscrire{
+			text-decoration: none;
+			color:white;
+		}
+
+		.inscrire{
+			margin: 10px 10px 20px 10px;
+			padding: 10px 20px;
+			background-color: #7A1B0D !important;
+			border-color: #7A1B0D !important;
+			color: white !important;
+			font-size: 20px;
+			font-family: "Typograph PRO";
+		}
+
+			.inscrire:hover{
+				transition:0.3s;
+				background-color: rgba(0,0,0,0.6) !important;
+				border-color: #aaa !important;
+				color: white !important;
+			}
+
+/*Zone reset du mot de passe */
+
+.zone_de_reset_pass{
+	width: 20%;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	border : solid 1px #555;
+	border-radius: 5px;
+	background-color: rgba(6,2,1,0.8);
+}
+
+.zone_de_reset_pass form{
+	display: block;
+	text-align: right;
+}
+
+.zone_de_reset_pass input{
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.zone_de_reset_pass #submite{
+			margin-top: 20px; 
+			padding: 4px 10px;
+			font-size: 20px;
+			font-family: "Typograph PRO";
+		}
+
+			.zone_de_reset_pass #submite:hover{
+				transition:0.3s;
+				cursor: pointer;
+			}
+
+
+/*Zone oublie*/
+
+.zone_oublie{
+	width: 30%;
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+	border : solid 1px #555;
+	border-radius: 5px;
+	background-color: rgba(6,2,1,0.8);
+}
+
+.zone_oublie label {
+	padding-bottom: 5px;
+}
+
+.zone_oublie input {
+	padding: 5px;
+	font-size: 14px;
+}
+
+.zone_oublie #submite{
+			margin-top: 20px; 
+			padding: 4px 10px;
+			font-size: 20px;
+			font-family: "Typograph PRO";
+		}
+
+			.zone_oublie #submite:hover{
+				transition:0.3s;
+				cursor: pointer;
+			}
+
+
+/*Message d'alerte*/
+
+.message{
+	font-size: 25px;
+}
+	
+.avertissement{
+	text-align: center;
+	font-size: 18px;
+	padding: 0 10px 0px 10px ; 
+}
+
+	.message .fa, .avertissement .fa{
+		padding: 0px 10px 0 10px;
+		text-shadow: 0px 0px 2px rgba(0,0,0,1);
+	}
+
+	.negatif{
+		padding: 5px 0 5px 0;
+		color:#BA0000;
+	}
+
+	.positif{
+		padding: 5px 0 5px 0;
+		color:#00FF2A;
+	}
+
+
+
+/*Page inscription*/
+
+.disconnect_needed{
+	font-size: 30px;
+	width:50%;
+	margin:auto;
+	font-family: "Typograph PRO Light", "Open Sans", helvetica, arial;
+	text-align: center;
+}
+
+

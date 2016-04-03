@@ -1,0 +1,191 @@
+	.reglement svg{
+		 width:100%; 
+		 height:100%;
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+	}
+
+	.reglement svg line {
+		stroke-width:3;
+		stroke: #fff;
+		fill: none;
+	}
+
+	.animate_border svg line.top_right {
+		animation-duration: 2s;
+		animation-name: anime_top_right;
+	}
+
+		@keyframes anime_top_right {
+		  from {
+			-webkit-transform: translateX(900px);
+			transform: translateX(900px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+	.animate_border svg line.top_left {
+		animation-duration: 2s;
+		animation-name: anime_top_left;
+	}
+
+		@keyframes anime_top_left {
+		  from {
+			-webkit-transform: translateX(-900px);
+			transform: translateX(-900px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+	.animate_border svg line.bot_right {
+		animation-duration: 0.5s;
+		animation-name: anime_bot_right;
+	}
+
+		@keyframes anime_bot_right {
+		  from {
+			-webkit-transform: translateX(300px);
+			transform: translateX(300px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+
+	.animate_border svg line.bot_left {
+		animation-duration: 0.5s;
+		animation-name: anime_bot_left;
+	}
+
+		@keyframes anime_bot_left{
+		  from {
+			-webkit-transform: translateX(-300px);
+			transform: translateX(-300px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+		
+
+	.animate_border svg line.right{
+		animation-duration: 1s;
+		animation-name: anime_right;
+	}
+
+		@keyframes anime_right{
+		  from {
+			-webkit-transform: translateY(200px);
+			transform: translateY(200px);
+		  }
+		  to {
+			-webkit-transform: translateY(0px);
+			transform: translateY(0px);
+	  		}
+		}
+
+
+	.animate_border svg line.left {
+
+		animation-duration: 1s;
+		animation-name: anime_left;
+	}
+
+
+		@keyframes anime_left{
+		  from {
+			-webkit-transform: translateY(200px);
+			transform: translateY(200px);
+		  }
+		  to {
+			-webkit-transform: translateY(0px);
+			transform: translateY(0px);
+	  		}
+		}
+
+
+	.animate_obj svg line.border_obj{
+		animation-duration: 1s;
+		animation-name: anime_obj;
+	}
+
+
+		@keyframes anime_obj{
+		  from {
+			-webkit-transform: translateX(-190px);
+			transform: translateX(-190px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+	.animate_coments svg line.border_comment{
+		animation-duration: 1s;
+		animation-name: anime_comment;
+	}
+
+
+		@keyframes anime_comment{
+		  from {
+			-webkit-transform: translateX(-215px);
+			transform: translateX(-215px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+	.animate_points svg line.border_points{
+		animation-duration: 1s;
+		animation-name: anime_points;
+	}
+
+
+		@keyframes anime_points{
+		  from {
+			-webkit-transform: translateX(-235px);
+			transform: translateX(-235px);
+		  }
+		  to {
+			-webkit-transform: translateX(0px);
+			transform: translateX(0px);
+	  		}
+		}
+
+	.zoomInDown {
+	  animation-duration: 2s;
+	  -webkit-animation-name: zoomInDown;
+	  animation-name: zoomInDown;
+	}
+
+	@keyframes zoomInDown {
+	  from {
+	    opacity: 0;
+	    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+	    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+	    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	  }
+
+	  60% {
+	    opacity: 1;
+	    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+	    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+	    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+	  }
+	}

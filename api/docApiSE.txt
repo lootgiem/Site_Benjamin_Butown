@@ -1,0 +1,52 @@
+getPlaces(id_event)
+  Error possibles : 6, 1
+getGroupe(nom_groupe)
+  Error possibles : 2
+getReservations(id_event)
+  Error possibles : 3
+insertGroupeReservation(id_event, nom_groupe, nom, prenom, mail, phone, nom2, prenom2, mail2, nom3, prenom3, mail3, nom4, prenom4, mail4, nom5, prenom5, mail5)
+  Error possibles : 4, 5, 7
+insertEntry(id_event, nom_groupe, nom, prenom, mail, phone, commande)
+  Error possibles : 5
+
+
+Error :
+  0 : No Error
+  1 : Event inconnu
+  2 : Groupe inconnu
+  3 : Pas de réservation
+  4 : Groupe existe déjà
+  5 : Réservation existe déjà
+  6 : Champs vide
+  7 : Réservation inconnu
+
+
+  /*Fonction getPlaces :
+  //Entrées : id_event
+  //Résultat : nombre de place restantes de l'event
+  //Error : 0 : OK
+  */
+
+  /*Fonction getGroupe :
+  //Entrées : nom_groupe
+  //Résultat : id_groupe
+  //Error : 0 : OK
+  */
+
+  /*Fonction getReservations :
+  //Entrées : id_event
+  //Résultat : json des réservations visibles
+  //Error : 0 : OK
+  */
+
+  /*Fonction insertEntry :
+  //Entrées : id_event (id_groupe), nom, prenom, mail, phone, (commande)
+  //Résultat : inscrit un nouvel user à l'event (relatif selon l'id) avec commande et groupe en option
+  //Error : 0 : OK
+  */
+
+  /*Fonction insertGroupeReservation :
+  //Entrées : id_event, nom_groupe, nom, prenom, mail, phone, nom2, prenom2, mail2, nom3, prenom3, mail3, nom4, prenom4, mail4, nom5, prenom5, mail5
+  //Résultat : inscrit les 5 nouveaux user et crée leur groupe
+  //Error : 0 : OK
+  */
